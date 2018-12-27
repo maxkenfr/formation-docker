@@ -1,0 +1,28 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.TodoList{
+  width: 400px;
+  display: block;
+  padding: 0;
+  background: #f8f7f3;
+  list-style-type: none !important;
+}
+
+.TodoItem{
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #bebdba;
+}
+
+.AddTodo{
+  width: 400px;
+  display: block;
+  padding: 16px;
+  border: 1px solid #bebdba;
+}
